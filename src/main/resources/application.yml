@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  webflux:
+    base-path: /exchange-search
+
+exchange:
+  api:
+    base-url: http://api.exchangeratesapi.io/latest
+    access-key: b764d032546c9425cbca589b7c8dbf7a
