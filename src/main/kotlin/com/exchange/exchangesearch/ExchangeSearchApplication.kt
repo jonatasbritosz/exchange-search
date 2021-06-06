@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class RateSearchApplication
+class ExchangeSearchApplication
 
 fun main(args: Array<String>) {
-	runApplication<RateSearchApplication>(*args)
+	runApplication<ExchangeSearchApplication>(*args)
 }
