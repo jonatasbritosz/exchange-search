@@ -4,8 +4,8 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 plugins {
 	id("org.springframework.boot") version "2.5.0"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
-	kotlin("jvm") version "1.5.10"
-	kotlin("plugin.spring") version "1.5.10"
+	kotlin("jvm") version "1.4.30"
+	kotlin("plugin.spring") version "1.4.30"
 	id("jacoco")
 }
 
@@ -33,6 +33,8 @@ dependencies {
 	testImplementation("io.projectreactor:reactor-test")
 	testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
 	testImplementation("org.hamcrest:hamcrest:2.2")
+	testImplementation("com.squareup.okhttp3:okhttp:4.9.1")
+	testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
 }
 
 tasks.withType<KotlinCompile> {
