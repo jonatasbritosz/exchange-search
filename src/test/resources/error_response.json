@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error": {
+    "code": 201,
+    "type": "invalid_base_currency"
+  }
+}
