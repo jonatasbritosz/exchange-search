@@ -50,5 +50,5 @@ Linux/macOS: `./gradlew jacocoTestReport`\
 Windows: `.\gradlew.bat jacocoTestReport`
 
 ### 📑 Rest API Documentation
-http://localhost:8080/exchange-search/api-docs
+http://localhost:8080/exchange-search/api-docs \
 http://localhost:8080/exchange-search/swagger-ui.html
