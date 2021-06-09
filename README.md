@@ -32,7 +32,7 @@ Linux/macOS: `./gradlew clean bootRun`\
 Windows: `.\gradlew.bat clean bootRun`
 
 ### ⌨️ Usage
-When performing a query, an id must be entered for the user who is making the request.\
+When performing a query, an *userId* must be entered for the user who is making the request.\
 Here are some examples of using the API:\
 \
 Endpoint to get conversion:\
