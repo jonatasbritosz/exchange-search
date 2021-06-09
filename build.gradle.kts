@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
-	id("org.springframework.boot") version "2.5.0"
+	id("org.springframework.boot") version "2.4.6"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.4.30"
 	kotlin("plugin.spring") version "1.4.30"
@@ -25,7 +25,11 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	implementation("com.hazelcast:hazelcast:4.2")
+	implementation("org.springdoc:springdoc-openapi-webflux-ui:1.5.5")
+	implementation("org.springdoc:springdoc-openapi-data-rest:1.5.5")
+	implementation("org.springdoc:springdoc-openapi-maven-plugin:1.2")
+	implementation("org.springdoc:springdoc-openapi-kotlin:1.5.5")
+	implementation("org.springframework.boot:spring-boot-maven-plugin:2.3.3.RELEASE")
 
 	runtimeOnly("io.r2dbc:r2dbc-h2")
 
